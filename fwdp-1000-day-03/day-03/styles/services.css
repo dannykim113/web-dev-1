@@ -1,0 +1,67 @@
+.header {
+    background-color: #c9c8c8;
+    color: #000000;
+    height: 8rem;
+    text-align: center;
+    padding: .375rem;
+
+}
+
+nav li {
+    text-align: center;
+    padding-right: 3rem;
+}
+
+
+
+.bg-green {
+    background-color: #d9f7d6;
+    padding: 1.5rem ;
+    margin: 1rem 0;
+}
+
+.service-types {
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+
+h2 {
+    color: #000000;
+}
+
+
+
+/* email us today */
+.email-button {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;    
+}
+
+.email-button a {
+    flex: .5;
+    text-decoration: none;
+    outline-color: transparent;
+    text-align: center;
+    line-height: 3;
+    color: #ffffff;
+    background: #008000;
+}
+
+.facebook-link {
+    text-decoration: underline;
+}
+
+.customer-pictures {
+    border-radius: 50%;
+}
+
+.center-review {
+    text-align: center;
+}
+
+.footerbox {
+    background-color: #c9c8c8;
+    line-height: 4;
+    text-align: center;
+}
