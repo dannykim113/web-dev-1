@@ -10,12 +10,14 @@ body {
 h1,
 footer {
 	text-align: center;
+	padding: 1rem;
 	/* Give me equal padding on all four sides */
 	
 }
 
 section {
 	background-color: rgb(205, 244, 205);
+	padding: 0 1rem;
 	/* Give me some padding only on the left and right */
 	
 }
@@ -23,16 +25,20 @@ section {
 article {
 	color: rgb(255, 255, 255);
 	/* Give me a background color that contrasts with my font color */
+	background-color: black;
 	
 
 	/* Give me padding on the left/right that is larger than my padding on the top/bottom */
+	padding: 1rem 2rem;
 	
 
 	/* Give me margin on one of my four sides so I don't touch the other articles  */
+	padding-top: 1rem;
 	
 }
 
 img {
 	/* Remove the space underneath each image */
+	display: block;
 	
 }
