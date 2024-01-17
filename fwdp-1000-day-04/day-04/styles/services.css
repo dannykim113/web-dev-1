@@ -86,7 +86,8 @@ main {
 /* Services Styles */
 
 .cards {
-	display: flex;
+	display: flex;	
+	flex-direction: column;
 }
 
 .services article {
@@ -120,9 +121,20 @@ main {
 @media (min-width: 50em) {
 
 	.cards {
-		flex-direction: column;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
 		/* flex-direction: column-reverse;
 		flex-direction: row-reverse; */
+	}
+
+	.cards article {
+		/* width: 30%; */
+		flex: 0 1 30%;
+	}
+
+	.cards .service-1 {
+		flex: 0 1 30%;
 	}
 
 	.services article {
@@ -151,4 +163,15 @@ main {
 .testimonials blockquote p {
 	display: inline-block;
 	margin: 0;
+}
+
+@media (min-width: 50em) {
+	.testimonials > *:not(article) {
+		width: 100%;
+	}
+	
+	.testimonials {
+		display: flex;
+		flex-wrap: wrap;
+	}
 }
